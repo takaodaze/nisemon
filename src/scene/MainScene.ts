@@ -12,6 +12,7 @@ export class MainScene extends Phaser.Scene {
         const dialog = new Dialog(this, {
             position: "bottom",
             text: "test text",
+            textSpeed: 100,
         });
         this.add.existing(dialog);
     }
